@@ -27,6 +27,8 @@
   padding: 0;
   margin: 0;
 }
+
+
 @media (max-width: 600px) {
   .nav-links {
     gap: 20px; /* less space between links on small screens */
@@ -34,12 +36,13 @@
     justify-content: center;
   }
 }
-.navbar a {
+
+
+.nav-links a {
+  font-size: 16px;
   text-decoration: none;
-  font-size: 2rem;                /* make text bigger */
-  font-weight: 600;
-  color: #333;
-  padding: 10px 15px;
+  color: black;
+  padding: 10px;
 }
 .site-footer {
   background-color: #111;
