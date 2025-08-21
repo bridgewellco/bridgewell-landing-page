@@ -1,0 +1,133 @@
+.header {
+  position: relative;
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.scroll-indicator {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+}
+
+.scroll-indicator span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  transform: rotate(45deg);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); }
+  50% { transform: rotate(45deg) translateY(10px); }
+}
+
+.navbar {
+  background-color: #fff;           /* background color */
+  height: 80px;                     /* increase overall height */
+  display: flex;
+  align-items: center;             /* vertically center nav items */
+  padding: 0 40px;                 /* horizontal spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 850px;                        /* spacing between links */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 2rem;                /* make text bigger */
+  font-weight: 600;
+  color: #333;
+  padding: 10px 15px;
+}
+.site-footer {
+  background-color: #111;
+  padding: 60px 20px;
+  color: white;
+}
+
+.footer-box {
+  background-color: #222;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+
+.hero h1 {
+  font-size: 3rem;       /* Make it big */
+  font-weight: 700;      /* Bold */
+  margin: 0 auto;
+  color: #111;           /* Change to white if your background is dark */
+}
+
+
+.hero p {
+  font-size: 2.5rem;       /* Make it big */
+  font-weight: 400;      /* Bold */
+  margin: 0 auto;
+  color: #111;           /* Change to white if your background is dark */
+}
+
+.h2 p {
+    font-size: 1.2rem;
+}
+
