@@ -32,19 +32,12 @@
   .navbar {
     padding: 0 15px; /* less horizontal padding on small screens */
   }
-
-  
-
-  .nav-links a {
-    font-size: 16px;
-  }
-}
-@media (max-width: 400px) {
-  .nav-links a {
+  nav-links a {
     font-size: 14px;
     padding: 8px;
   }
 }
+
 
 .nav-links a {
   font-size: 16px;
