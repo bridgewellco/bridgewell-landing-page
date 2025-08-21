@@ -8,29 +8,7 @@
     height: auto;
     object-fit: cover;
 }
-.scroll-indicator {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
-}
 
-.scroll-indicator span {
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-bottom: 3px solid black;
-  border-right: 3px solid black;
-  transform: rotate(45deg);
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: rotate(45deg) translateY(0); }
-  50% { transform: rotate(45deg) translateY(10px); }
-}
 
 .navbar {
   background-color: #fff;           /* background color */
