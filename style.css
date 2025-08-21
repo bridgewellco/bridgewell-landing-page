@@ -19,14 +19,21 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar ul {
-  list-style: none;
+.nav-links {
   display: flex;
-  gap: 850px;                        /* spacing between links */
-  margin: 0;
+  justify-content: center;
+  gap: 40px; /* spacing between links */
+  list-style: none;
   padding: 0;
+  margin: 0;
 }
-
+@media (max-width: 600px) {
+  .nav-links {
+    gap: 20px; /* less space between links on small screens */
+    flex-wrap: wrap; /* allows links to move to next line if needed */
+    justify-content: center;
+  }
+}
 .navbar a {
   text-decoration: none;
   font-size: 2rem;                /* make text bigger */
