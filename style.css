@@ -24,7 +24,7 @@
   justify-content: center;
   gap: 40px; /* spacing between links */
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
 }
 
