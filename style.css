@@ -47,6 +47,7 @@
 }
 
 .footer-content {
+  color:white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -54,6 +55,7 @@
 }
 
 .footer-section h3 {
+  color: white;
   margin-bottom: 10px;
   font-size: 18px;
 }
