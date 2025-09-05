@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shop (Brand Name)</title>
+  <title>Bridgewell Landing Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,11 +19,9 @@
 
   <nav class="nav-menu" id="navMenu">
     <a href="index.html"> Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="size.html">Size Guide (optional)</a>
     <a href="contact.html">Contact</a>
-    <a href="#about">About</a>
-    <a href="#follow">Follow</a>
+    <a href="#about">About Us </a>
+    <a href="#follow">Follow Us/a>
   </nav>
 </header>
 
@@ -31,23 +29,28 @@
 <main class="contact-section">
 <section class="hero "> 
     <h1> CONTACT US </h1>
-    <P> Our customer is very important to us. We will always do our best to respond quickley.
+    <P> Our customer is our prioroty. We will always do our best to respond quickley.
         
-    To email us: (Email) 
-    To call us:(Phone Number)
-    To Whatsapp us:(Number)
-    To DM us:(Instagram)
+    To email us: <a href="mailto:email">bridgewell.co@gmail.com</a>
+    To DM us:<a href="https://instagram.com/bridgewell.co">bridgewell.co</a>
 </P>
 </section>
 <section>
-    <form class="contact-form" action="#" method="POST">
-  <h2>Send Us a Message</h2>
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-  <button type="submit">Send</button>
-</form>
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <h2>Send Us a Message</h2>
 
+    <!-- ✅ Web3Forms access key -->
+    <input type="hidden" name="access_key" value="62f7294e-4245-4094-b85a-372a6d1549d0" />
+
+    <!-- Optional: Customize sender name or redirect URL -->
+    <!-- <input type="hidden" name="from_name" value="My Website Contact Form" /> -->
+    <!-- <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you" /> -->
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
 </section>
 </main>
 
@@ -65,20 +68,19 @@
       <div class="footer-section" id="contact">
         <h2>Contact Us</h2>
         <p>Email: <a href="mailto:email">(Email)</a>
-        <p>Phone:<a href=+(phone)> Phone</a></p>
       </div>
 
       
       <div class="footer-section" id="follow">
         <h2>Follow Us</h2>
-        <a href="https://instagram.com/instagram" target="_blank">(instagram account)</a>
+        <a href="https://instagram.com/bridgewell.co" target="_blank">bridgwell.co</a>
       </div>
     </div>
 
 
   
     <div class="footer-bottom">
-      <p>&copy; 2025 (Brand Name). All rights reserved. <span class="location-tag">Based in (Location)</span></p>
+      <p>&copy; 2025 bridgewell. All rights reserved. <span class="location-tag">Based in Kuwait</span></p>
     </div>
   </div>
 </footer>
