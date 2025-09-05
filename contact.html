@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop (Brand Name)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  
+
+<!-- 🌐 Header (Navigation) -->
+<header class="top-bar">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <img src="images/logo.png" alt="Logo" class="logo">
+
+  <nav class="nav-menu" id="navMenu">
+    <a href="index.html"> Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="size.html">Size Guide (optional)</a>
+    <a href="contact.html">Contact</a>
+    <a href="#about">About</a>
+    <a href="#follow">Follow</a>
+  </nav>
+</header>
+
+
+<main class="contact-section">
+<section class="hero "> 
+    <h1> CONTACT US </h1>
+    <P> Our customer is very important to us. We will always do our best to respond quickley.
+        
+    To email us: (Email) 
+    To call us:(Phone Number)
+    To Whatsapp us:(Number)
+    To DM us:(Instagram)
+</P>
+</section>
+<section>
+    <form class="contact-form" action="#" method="POST">
+  <h2>Send Us a Message</h2>
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+</section>
+</main>
+
+
+
+
+<div class="page-spacer"></div>
+<footer class="site-footer">
+  <div class="footer-box">
+    <div class="footer-content">
+      <div class="footer-section" id="about">
+          <h2>About Us</h2>
+          <h3>At (Brand Name), we specialize in (What the brand is)</h3>
+        </div>
+      <div class="footer-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:email">(Email)</a>
+        <p>Phone:<a href=+(phone)> Phone</a></p>
+      </div>
+
+      
+      <div class="footer-section" id="follow">
+        <h2>Follow Us</h2>
+        <a href="https://instagram.com/instagram" target="_blank">(instagram account)</a>
+      </div>
+    </div>
+
+
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 (Brand Name). All rights reserved. <span class="location-tag">Based in (Location)</span></p>
+    </div>
+  </div>
+</footer>
+
+
+  
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('navMenu');
+    nav.classList.toggle('open');
+  }
+</script>
+
+
+
+</body>
+</html>
+
