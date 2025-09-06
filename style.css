@@ -111,7 +111,7 @@
 .process-steps li {
   margin-bottom: 20px;
   font-size:1rem;
-  margin-top:50px;
+margin-top:20px;
 }
 
 .process-steps strong {
@@ -192,6 +192,7 @@ html {
   font-weight: 400;      /* Bold */
   margin: 0 auto;
   color: #111;           /* Change to white if your background is dark */
+  margin-bottom:35px;
 }
 
 .h2 p {
