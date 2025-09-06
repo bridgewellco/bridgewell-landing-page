@@ -177,6 +177,12 @@ html {
 }
 
 
+
+.hero 2{
+  text-align: center;
+  padding: 90px 20px;
+}
+
 .hero h1 {
   font-size: 3rem;       /* Make it big */
   font-weight: 700;      /* Bold */
