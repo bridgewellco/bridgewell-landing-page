@@ -8,6 +8,20 @@
   padding: 15px 0;
   text-align: center;
 }
+.brand-bar h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align:center;
+  color:white;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+  z-index: 999;
+}
 
 .cta-button {
   background-color: #000;
@@ -30,12 +44,6 @@
 }
 
 
-.menu-icon {
-  font-size: 24px;
-  cursor: pointer;
-  color: #000;
-  z-index: 999;
-}
 
 
 /* Nav Menu (initially hidden on mobile) */
@@ -64,13 +72,7 @@
 .nav-menu.open {
   display: flex;
 }
-.brand-bar h1 {
-  margin: 0;
-  font-size: 24px;
-  letter-spacing: 1px;
-  text-align:center;
-  color:white;
-}
+
 
 .img-fluid{
     max-width: 100%;
