@@ -180,11 +180,11 @@ html {
 
 .hero 2{
   text-align: center;
-  padding: 90px 20px;
+  padding: 80px 15px;
 }
 
 .hero h1 {
-  font-size: 3rem;       /* Make it big */
+  font-size: 2.7rem;       /* Make it big */
   font-weight: 700;      /* Bold */
   margin: 0 auto;
   color: #111;           /* Change to white if your background is dark */
